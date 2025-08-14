@@ -18,8 +18,8 @@ A clean and efficient Pomodoro Timer extension for GNOME Shell, helping you boos
 - ⚡ Lightweight: Efficient resource usage
 
 ### Screenshots
-![img_3.png](docs/screenshots/img_1.png)
-![img_2.png](docs/screenshots/img_2.png)
+![screenshots1.png](docs/screenshots/img_1.png)
+![screenshots2.png](docs/screenshots/img_2.png)
 
 
 ## Requirements
@@ -56,7 +56,8 @@ From Source (Recommended for Development)
   ## From GNOME Extensions Website
 ```
 
-Coming soon...
+## From GNOME Extensions Website 
+Coming soon... (hope)
 
 ## Usage
 
