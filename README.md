@@ -1,5 +1,4 @@
 # Pomodoro Timer - GNOME Shell Extension
-***
 
 ![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-45%2B-4A86CF?logo=gnome&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
@@ -10,7 +9,6 @@ A clean and efficient Pomodoro Timer extension for GNOME Shell, helping you boos
 > **Note:** This is my first open source and GNOME Shell extension project ❤️ Feedback and contributions are welcome!
 
 ## Features
-***
 - ⏱️ Classic Pomodoro Timer: 25-minute work sessions, 5-minute breaks
 - 🎯 Smart State Management: Tracks work, break, pause, and overtime states
 - 🔔 Desktop Notifications: Get notified when sessions complete
@@ -25,12 +23,12 @@ A clean and efficient Pomodoro Timer extension for GNOME Shell, helping you boos
 
 
 ## Requirements
-***
+
 - GNOME Shell 45, 46, 47, 48, or 49
 - Linux distribution with GNOME desktop environment
 
 ## Installation
-***
+
 From Source (Recommended for Development)
 
 ```bash
@@ -61,7 +59,7 @@ From Source (Recommended for Development)
 Coming soon...
 
 ## Usage
-***
+
 ### Basic Controls
 
 | Action            | Description                    |
@@ -84,14 +82,14 @@ Coming soon...
 - BREAK_OVERTIME - Break extended beyond scheduled time
 
 ### Panel Indicator
-***
+
 - Hourglass icon ⏳ - Work session
 - Coffee icon ☕ - Break session
 - Timer display - Shows remaining/elapsed time
 - Blinking effect - Indicates active or completed sessions
 
 ## Architecture
-***
+
 ```text
   pomodoro-timer/
   ├── src/
@@ -113,14 +111,14 @@ Coming soon...
 ```
 
 ## Design Patterns
-*** 
+ 
 - **Command Pattern**: Encapsulates timer actions as commands
 - **State Pattern**: Manages timer states and transitions
 - **Observer Pattern**: GObject signals for state changes
 - **Factory Pattern**: Creates command instances dynamically
 
 ## Testing
-***
+
 ```bash
 # Run in nested GNOME session
 dbus-run-session -- gnome-shell --nested --wayland
@@ -129,7 +127,7 @@ dbus-run-session -- gnome-shell --nested --wayland
 journalctl -f -o cat | grep "Pomodoro Timer"
 ```
 ## 🤝 Contributing
-***
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
@@ -139,7 +137,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 5. Open a Pull Request
 
 ## Guidelines
-***
+
 
 - Follow the existing code style
 - Add comments for complex logic
@@ -148,7 +146,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Ensure no memory leaks
 
 ## 📝 TODO
-***
+
 
 - Add settings preferences UI
 - Implement session statistics tracking
@@ -160,24 +158,24 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Add Do Not Disturb mode integration
 
 ## Known Issues
-***
+
 - Unicode characters in notifications may not display correctly
 - Blinking animation may consume extra CPU on older hardware
 - Timer state is not persisted across GNOME Shell restarts
 
 ## License
-***
+
 Copyright (C) 2025 Vladyslav Vorobei
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-***
+
 Vladyslav Vorobei - https://github.com/vlad-vorobei - vladyslavvorobei@gmail.com
 
 Project Link: https://github.com/vlad-vorobei/pomodoro-timer
 
-*** 
+ 
 > <p align="center">
 >  Made with ❤️ for the GNOME community
 > </p>
