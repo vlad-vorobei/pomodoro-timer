@@ -1,0 +1,13 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "A clean and efficient Pomodoro Timer extension for GNOME Shell, helping you boost productivity with the time-tested Pomodoro Technique.",
+  "uuid": "pomodoro-timer@vladvorobei",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "version": "0.0.1"
+}

@@ -1,0 +1,47 @@
+.panel-status-menu-box {
+  padding: 0 4px;
+  margin: 0;
+}
+
+.pomodoro-timer-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  min-width: 36px;
+  margin-right: 2px;
+}
+
+.system-status-icon {
+  icon-size: 16px;
+  margin: 0;
+  transition: all .3s ease;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
+
+.popup-menu-item {
+  padding: 8px 12px;
+}
+
+.popup-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.popup-menu-item:insensitive {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.popup-separator-menu-item {
+  height: 1px!important;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 0;
+}
